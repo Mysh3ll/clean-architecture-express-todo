@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll --collectCoverage"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/Mysh3ll/clean-architecture-express-todo#readme",
   "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.5.0",
     "@types/node": "^17.0.32",
+    "@types/supertest": "^2.0.12",
     "jest": "^28.1.0",
     "supertest": "^6.2.3",
     "ts-jest": "^28.0.2",
