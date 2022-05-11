@@ -1,0 +1,28 @@
+{
+  "name": "clean-archi-express-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mysh3ll/clean-architecture-express-todo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mysh3ll/clean-architecture-express-todo/issues"
+  },
+  "homepage": "https://github.com/Mysh3ll/clean-architecture-express-todo#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.32",
+    "jest": "^28.1.0",
+    "supertest": "^6.2.3",
+    "ts-jest": "^28.0.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
